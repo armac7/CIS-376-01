@@ -1,0 +1,33 @@
+This file is just for easy access incase I want to add extra tabs or redesign old tabs It's the base layout of the website.
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../source/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../source/styleIndex.css">
+	<title>The Site | CLoudEX</title>
+</head>
+<body>
+	<div class="container" style="position: absolute;
+								width: 100%; height: 100%; min-width: 1300px min-height: 634.43px;
+								margin: 0%;
+								top: 0%; left: 0%"> <!-- (1920 x 937)-->
+		<!--------------- Website Shared Design ---------------->
+			<div style="position: absolute;
+					left: 5.21%; top: 130px;
+					width: 83.33%; height: 50px; min-width: 1150px;
+					background-color: #5d5871;">
+					<div style="position: absolute; left: -4%; top: -210%;"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="../resource/imgs/logos/logo.png" style="width: 80%; height: auto;"></a></div>
+					<div style="position: absolute; left: 39.06%; top: -210%;"> <img src="../resource/imgs/text/subtitle.png"></div>
+					<div style="position: absolute; left: 70%; top: -280%;"><a href="https://www.youtube.com/watch?v=-YCN-a0NsNk" target="_blank" class="cloud"><img src="../resource/imgs/logos/cloudcollage.png" style="width: 344.5px; height: 140px;"></a></div>
+					<a href="index.html"><div class="button">HOME</div></a>
+					<a href="projects.html"><div class="button"">PROJECTS</div></a>
+					<a href="videos.html"><div class="button">VIDEOS</div></a>
+					<a href="thearea.html"><div class="button">THE AREA</div></a>
+					<a href="thesite.html"><div class="button" style="background-color: white; color: #5d5871;">THE SITE</div></a>
+			</div>
+			<!--------------- Website Shared Design ---------------->
+	</div>
+</body>
