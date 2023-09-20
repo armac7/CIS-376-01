@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:wght@600&display=swap');
+/*
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+*/
+
+
+body {
+    
+    background-image: url(/Echo-Lab/styles/imgs/gaming-pattern.jpg);
+    /*
+    background-image: url(https://images.vexels.com/media/users/3/249497/raw/3646156475a19bd713d8409b7ebbe21e-joystick-video-game-pattern-design.jpg);
+    */
+}
+
+#main-container {
+    background-color: #212529;
+    border-radius: 5px;
+    color: white;
+}
+
+/*-------------------------------NAV-------------------------------*/
+
+/*-----------------------------------------------------------------*/
+
+/*-------------------------------MAIN-------------------------------*/
+#anime-salute {
+    margin-left: 2px; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float:left; 
+    border: 1px white solid;
+}
+
+#main-h3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#main-p {
+    text-align: center;
+    position: relative;
+    left: 3px;
+}
+/*-----------------------------------------------------------------*/
+
+/*------------------------------CARDS------------------------------*/
+.card-body {
+    background-color: #212529;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary {
+    background-color: #7e86ce;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #5b67d0;
+}
+
+.btn-outline-primary {
+    border-color: #ffd054;
+    color: #ffd054;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-outline-primary:hover {
+    border: 0px;
+    color: white;
+    background-color: #ffd054;
+}
+/*-----------------------------------------------------------------*/
