@@ -89,6 +89,7 @@ p {
 }
 .navbar-cyberpunk {
     background-color: #fcf700;
+    border-bottom: 4px #18181a solid;
     color: #18181a;
 }
 .navbar-cyberpunk .navbar-nav .nav-link{
@@ -190,8 +191,23 @@ p {
 }
 
 /************************************* 
+    About Me Styles
+*************************************/ 
+#left-for-dev {
+    position: relative;
+    left: 60px;
+}
+
+
+/************************************* 
     Mobile Styles
 *************************************/ 
+@media (max-width: 1394px) {
+    #left-for-dev {
+        left: 0px;
+    }
+}
+
 @media (max-width: 1200px) {
     .github-div,
     .linkedin-div,
