@@ -61,3 +61,8 @@ body {
     color: white;
 }
 
+@media only screen and (max-width: 576px) {
+    #intermediate-labs {
+        margin-top: 20% !important;
+    }
+}

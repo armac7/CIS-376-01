@@ -1,9 +1,0 @@
-dark grey = #262630
-purple = #5d5871
-light blue = #5d5871
-saturated purple = #46166b
-
-fonts: 
-hotbar = century gothic
-header = franklin gothic 
-text = corbel

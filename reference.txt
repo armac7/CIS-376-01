@@ -1,0 +1,2 @@
+cyberpunk-yellow: #fcf700
+dark-grey: #18181a

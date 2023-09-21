@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Kanit:ital,wght@0,800;1,800&family=Mulish:ital,wght@0,600;1,600&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Mulish', sans-serif;*/
+
+/*************************************
+    Text Related Class
+*************************************/
+.cyber-header-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cyber-text-font {
+    font-family: 'Mulish', sans-serif;
+}
+
+.cyber-bold-font {
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+.cyber-white-shadow {
+    text-shadow: 2px 1px #fcf700;
+}
+
+body {
+    /* background-image: url("./imgs/ui/bg.jpg"); */
+    background: rgb(0,0,0);
+background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba(33,33,33,1) 100%);
+
+}
+
+/*************************************
+    Color Styles
+*************************************/
+
+.cyber-yellow-bg {
+    background-color: #fcf700 !important;
+}
+
+.cyber-yellow {
+    color: #fcf700 !important;
+}
+
+.cyber-grey-bg {
+    background-color: #18181a !important;
+}
+
+.cyber-grey {
+    color: #18181a !important;
+}
+
+/*************************************
+    NAV Styles
+*************************************/
+.navbar-cyberpunk {
+    background-color: #fcf700;
+    color: #18181a;
+}
+.navbar-cyberpunk .navbar-nav .nav-link{
+    position: relative;
+    top: -10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#18181a;
+    height: 144%;
+}
+
+.navbar-cyberpunk .nav-item.active .nav-link,
+.navbar-cyberpunk .nav-item:focus .nav-link,
+.navbar-cyberpunk .nav-item:hover .nav-link {
+    color: #fcf700;
+    background-color: #18181a;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./imgs/ui/navbar-button-dark.png);
+}
+
+.navbar-toggler:focus {
+    .navbar-toggler-icon {
+        background-image: url(./imgs/ui/navbar-button.png);
+    }
+    background-color: #18181a;
+}
+
+.active {
+    background-color: #18181a;
+    color: #fcf700 !important;
+}
+
+/************************************* 
+    Introduction Styles
+*************************************/  
+#headshot {
+    width: 100%;
+    height: auto;
+    border: 10px #fcf700 solid;
+}
+
+#signature {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+    height: auto;
+    background-color: #18181aa9;
+    border: 5px #fcf700 solid;
+}
+
+#intro-text {
+    margin-top: 20px;
+
+}
+
+
+/************************************* 
+    Mobile Styles
+*************************************/ 
+@media (max-width: 1199px) {
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-cyberpunk .navbar-nav .nav-link{
+        position: relative;
+        top: 0px;
+        text-indent: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    #main-content {
+        margin-top: 20px;
+    }
+}
