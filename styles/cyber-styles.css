@@ -1,0 +1,90 @@
+/*************************************
+    Text Related Class
+*************************************/
+.cyber-header-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cyber-text-font {
+    font-family: 'Mulish', sans-serif;
+}
+
+.cyber-bold-font {
+    font-family: 'Kanit', sans-serif;
+}
+
+.cyber-yellow-shadow {
+    text-shadow: 2px 1px #fcf700;
+}
+
+.cyber-white-shadow {
+    text-shadow: 2px 1px white;
+}
+
+
+.btn-cyber {
+    background-color: #fcf700;
+    border: 4px #fcf700 solid;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #18181a;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-cyber:hover {
+    background-color: #18181a;
+    color: #fcf700;
+    font-size: 25px;
+    transition: .5s;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn-cyber-grey {
+    background-color: #18181a;
+    border: 4px #18181a solid;
+    color: #fcf700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-cyber-grey:hover {
+    background-color: #fcf700;
+    color: #18181a;
+    font-size: 25px;
+    transition: .5s;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+/*************************************
+    Color Styles
+*************************************/
+
+.cyber-yellow-bg {
+    background-color: #fcf700 !important;
+}
+
+.cyber-yellow {
+    color: #fcf700 !important;
+}
+
+.cyber-grey-bg {
+    background-color: #18181a !important;
+}
+
+.cyber-grey {
+    color: #18181a !important;
+}
+
+.cyber-border-grey-10 {
+    border: 10px #18181a solid;
+}
+
+.cyber-black-hover:hover {
+    transition: .5s;
+    filter: drop-shadow(16px 16px 10px black);
+}

@@ -20,64 +20,6 @@ p {
     font-size: 20px;
 }
 
-.cyber-header-font {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.cyber-text-font {
-    font-family: 'Mulish', sans-serif;
-}
-
-.cyber-bold-font {
-    font-family: 'Kanit', sans-serif;
-}
-
-.cyber-yellow-shadow {
-    text-shadow: 2px 1px #fcf700;
-}
-
-.cyber-white-shadow {
-    text-shadow: 2px 1px white;
-}
-
-.btn-cyber {
-    background-color: #fcf700;
-    border: 4px #fcf700 solid;
-    color: #18181a;
-    padding: 10px;
-    width: 100%;
-}
-
-.btn-cyber:hover {
-    background-color: #18181a;
-    color: #fcf700;
-    font-size: 25px;
-    transition: .5s;
-    padding: 10px;
-    width: 100%;
-    margin-top: 5px;
-}
-
-/*************************************
-    Color Styles
-*************************************/
-
-.cyber-yellow-bg {
-    background-color: #fcf700 !important;
-}
-
-.cyber-yellow {
-    color: #fcf700 !important;
-}
-
-.cyber-grey-bg {
-    background-color: #18181a !important;
-}
-
-.cyber-grey {
-    color: #18181a !important;
-}
-
 /*************************************
     NAV Styles
 *************************************/
@@ -195,9 +137,12 @@ p {
 *************************************/ 
 #left-for-dev {
     position: relative;
-    left: 120px;
 }
 
+.img-about-me {
+    width: 600px; 
+    height: auto;
+}
 
 /************************************* 
     Mobile Styles
