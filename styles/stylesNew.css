@@ -12,7 +12,11 @@ body {
 /*************************************
     Text Related Class
 *************************************/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
 p {
+    font-family: 'Mulish', sans-serif;
     font-size: 20px;
 }
 
@@ -38,6 +42,7 @@ p {
 
 .btn-cyber {
     background-color: #fcf700;
+    border: 4px #fcf700 solid;
     color: #18181a;
     padding: 10px;
     width: 100%;
@@ -46,11 +51,11 @@ p {
 .btn-cyber:hover {
     background-color: #18181a;
     color: #fcf700;
-    border: 2px #fcf700 dotted;
     font-size: 25px;
     transition: .5s;
     padding: 10px;
     width: 100%;
+    margin-top: 5px;
 }
 
 /*************************************
@@ -76,6 +81,12 @@ p {
 /*************************************
     NAV Styles
 *************************************/
+.navbar {
+    position: fixed;
+       top: 0;
+       z-index: 1030; /* to prevent the navbar getting covered up by other content */
+       width: 100%;
+}
 .navbar-cyberpunk {
     background-color: #fcf700;
     color: #18181a;
@@ -137,6 +148,7 @@ p {
 .github-div,
 .linkedin-div,
 .indeed-div {
+    position: relative;
     margin-top: 50px;
     margin-left: 30px;
     width: 100px;
@@ -176,49 +188,31 @@ p {
     background-image: url(./imgs/ui/logos/indeed-outline.png);
     transition: .5s;
 }
-/* .social-links {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 50px;
-} */
 
 /************************************* 
     Mobile Styles
 *************************************/ 
-@media (max-width: 1199px) {
-    .social-links {
-        width: 200px;
-        height: 200px;
-        margin-left: 9%;
-    }
-
+@media (max-width: 1200px) {
     .github-div,
     .linkedin-div,
     .indeed-div {
+        width: 300px;
+        height: 300px;
         margin-top: 50px;
-        margin-left: 90px;
+        margin-left: 310px;
     }
 }
 
+/* Tablets */
 @media (max-width: 991px) {
 
     .github-div,
     .linkedin-div,
     .indeed-div {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 190px;
     }
 }
 
-@media (max-width: 768px) {
-
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        margin-top: 50px;
-        margin-left: 23px;
-    }
-}
 
 @media only screen and (max-width: 576px) {
     .navbar-cyberpunk .navbar-nav .nav-link{
@@ -231,19 +225,31 @@ p {
     #main-content {
         margin-top: 20px;
     }
+}
 
+/* Mobile L */
+@media (max-width: 426px) {
     .github-div,
     .linkedin-div,
     .indeed-div {
-        margin-left: 5%;
+        margin-left: 50px;
     }
 }
 
-@media (max-width: 551px) {
-
+/* Mobile M */
+@media (max-width: 376px) {
     .github-div,
     .linkedin-div,
     .indeed-div {
         margin-left: 20px;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 321px) {
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-left: 0px;
     }
 }

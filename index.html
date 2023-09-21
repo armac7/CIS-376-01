@@ -6,12 +6,13 @@
     <title>WRM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/stylesNew.css">
 </head>
 <body>
     
     <!----------------------------- NAV BAR ----------------------------->
-    <nav class="navbar navbar-expand-sm navbar-cyberpunk navbar-fixed">
+    <nav class="navbar navbar-expand-md  navbar-cyberpunk navbar-fixed">
         <div class="container-fluid">
             <a class="navbar-brand cyber-bold-font cyber-grey" href="/index.html">W. RYAN MCD.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -41,17 +42,19 @@
     </nav>
     <!------------------------------------------------------------------->
 
-    
+    <br><br>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-xl-5">
+            <!-- My Headshot -->
+            <div class="col-xl-5" data-aos="fade-right" data-aos-delay="100">
+
                 <img class="img-fluid" src="./styles/imgs/ai_me_cyberpunk.png" id="headshot">
                     <img class="img-fluid position-relative" src="./styles/imgs/signature.png" id="signature">
                 </img>
-                
             </div>
-            <div class="col-xl-6" id="main-content">
+            <div class="col-xl-6" id="main-content" data-aos="fade-up" data-aos-delay="400">
                 
+                <!-- Introduction content -->
                 <h1 class="cyber-header-font text-white">
                     I.T. Student, Programmer, Graphic Designer,  and <br> 
                     Aspiring Game Dev.
@@ -64,6 +67,7 @@
                     already tell, if you aren't a game freak, this page is inspired by one of my favorite games,
                     Cyberpunk 2077.
                 </p>
+                <!-- Buttons at bottom of introduction -->
                 <div class="row">
                     <div class="col">
                         <a href="#"><button class="btn-cyber cyber-header-font">PORTFOLIO</button></a>
@@ -77,13 +81,8 @@
                 </div>
                 
             </div>
-            <div class="col-xl-1">
-                <!-- <span>
-                    <img class="img-fluid social-links" src="./styles/imgs/ui/logos/github.png">
-                    <img class="img-fluid social-links" src="./styles/imgs/ui/logos/linkedin.png">
-                    <img class="img-fluid social-links" src="./styles/imgs/ui/logos/indeed.png">
-                </span> -->
-                
+            <!-- Social Links (Left side of intro) -->
+            <div class="col-xl-1" data-aos="fade-left" data-aos-delay="400">
                 <div class="row" id="socials">
                     <a href=""><div class="col-lg-3 github-div" id="github-div"></div></a>
                     <a href=""><div class="col-lg-3 linkedin-div" id="linkedin-div"></div></a>
@@ -93,16 +92,48 @@
             </div>
         </div>
     </div>
+
+    <!-- More Info About Me Section -->
+    <div class="container-fluid">
+        <!-- Background information -->
+        <div class="row cyber-yellow-bg">
+            <div class="col-lg-1">
+                <!--FILLER DIV -->
+            </div>
+            <div class="col-lg-5" data-aos="fade-right">
+                <h2 class="text-black mt-5">THE EARLY DAYS</h2>
+                <p>
+                    The majority of my youth, I had been highly fascinated with video games and their
+                    creation. Even now, going on twenty-one, I'm still yearning to make the same magic
+                    I had experienced growing up. I started learning gLua, which is a version of Lua made
+                    specifically for a game called Garry's Mod. My "mods", if you can even call them that,
+                    were very rudimentary. In essence, I was closer to a "script kiddie" than a
+                    "programmer"; however, a start is a start. In the words of Sir Francis Drake:
+                    <br>
+                    <span class="cyber-bold-font"><em>"Sic Parvis Magna" ("Greatness From Small Beginnings")</em></span>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="my-5" data-aos="flip-right">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5fUxwU0yQXk?si=etVxgPDJKmw7kTXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    <!-- Footer -->
     <div class="mt-5 p-3 bg-dark text-center cyber-yellow-bg">
         <p class="cyber-bold-font">
             
         </p>
     </div>
 
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src='./scripts/scripts.js'></script>
 </body>
 </html>
