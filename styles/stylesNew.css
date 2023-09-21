@@ -195,7 +195,7 @@ p {
 *************************************/ 
 #left-for-dev {
     position: relative;
-    left: 60px;
+    left: 120px;
 }
 
 
@@ -245,6 +245,16 @@ p {
 
 /* Mobile L */
 @media (max-width: 426px) {
+    #beta-pack {
+        width: 300px;
+        height: 200px;
+    }
+
+    #beginning-video {
+        width: 300px;
+        height: 200px;
+    }
+
     .github-div,
     .linkedin-div,
     .indeed-div {
