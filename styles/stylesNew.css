@@ -3,9 +3,19 @@
 font-family: 'Kanit', sans-serif;
 font-family: 'Mulish', sans-serif;*/
 
+body {
+    /* background-image: url("./imgs/ui/bg.jpg"); */
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba(33,33,33,1) 100%);
+}
+
 /*************************************
     Text Related Class
 *************************************/
+p {
+    font-size: 20px;
+}
+
 .cyber-header-font {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -18,18 +28,29 @@ font-family: 'Mulish', sans-serif;*/
     font-family: 'Kanit', sans-serif;
 }
 
-p {
-    font-size: 20px;
-}
-.cyber-white-shadow {
+.cyber-yellow-shadow {
     text-shadow: 2px 1px #fcf700;
 }
 
-body {
-    /* background-image: url("./imgs/ui/bg.jpg"); */
-    background: rgb(0,0,0);
-background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba(33,33,33,1) 100%);
+.cyber-white-shadow {
+    text-shadow: 2px 1px white;
+}
 
+.btn-cyber {
+    background-color: #fcf700;
+    color: #18181a;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-cyber:hover {
+    background-color: #18181a;
+    color: #fcf700;
+    border: 2px #fcf700 dotted;
+    font-size: 25px;
+    transition: .5s;
+    padding: 10px;
+    width: 100%;
 }
 
 /*************************************
@@ -113,12 +134,90 @@ background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba
 
 }
 
+.github-div,
+.linkedin-div,
+.indeed-div {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.github-div {
+    background-image: url(./imgs/ui/logos/github.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.github-div:hover {
+    background-image: url(./imgs/ui/logos/github-outline.png);
+    transition: .5s;
+}
+
+#linkedin-div {
+    background-image: url(./imgs/ui/logos/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#linkedin-div:hover {
+    background-image: url(./imgs/ui/logos/linkedin-outline.png);
+    transition: .5s;
+}
+
+#indeed-div {
+    background-image: url(./imgs/ui/logos/indeed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indeed-div:hover {
+    background-image: url(./imgs/ui/logos/indeed-outline.png);
+    transition: .5s;
+}
+/* .social-links {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+} */
 
 /************************************* 
     Mobile Styles
 *************************************/ 
 @media (max-width: 1199px) {
-    
+    .social-links {
+        width: 200px;
+        height: 200px;
+        margin-left: 9%;
+    }
+
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-top: 50px;
+        margin-left: 23px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -131,5 +230,20 @@ background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba
 
     #main-content {
         margin-top: 20px;
+    }
+
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 551px) {
+
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        margin-left: 20px;
     }
 }
