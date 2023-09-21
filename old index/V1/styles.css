@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,700;1,700&display=swap');
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; 
+*/
+
+
+body {
+    background-color: #262630;
+}
+
+/* 
+    General Styles 
+*/
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.cx-purple-bg {
+    background-color: #5d5871 !important;
+}
+
+.cx-sat-purple-bg {
+    background-color: #46166b !important;
+}
+
+.cx-satpurp-b5 {
+    border: 5px #46166b solid;
+}
+
+
+/*
+    Header / NAV Styles
+*/
+.navbar-fixed {
+    left: 100px;
+    width: calc(100% - 200px);
+}
+
+@media only screen and (max-width: 1120px) {
+    .navbar-fixed {
+        left: 0px;
+        width: 100%;
+    }
+}
+
+/*
+    Misc. Content
+*/
+.card {
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+}
+
+.card-title,
+.card-body {
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    #intermediate-labs {
+        margin-top: 20% !important;
+    }
+}

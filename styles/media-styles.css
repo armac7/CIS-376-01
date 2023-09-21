@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) {
+    #socials {
+        margin-left: 160px;
+    }
+
+    #small-beginnings-vid-div {
+        margin-left: 0px;
+        height: 418.5px;
+        width: 744px;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    #small-beginnings-vid-div {
+        margin-left: 0px;
+        height: 447.75px;
+        width: 796px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #socials {
+        left: -120px;
+        margin: 0 auto;
+    }
+
+    #small-beginnings-vid-div {
+        margin: 0 auto;
+    }
+
+
+
+    /* Old Attempt to put pics beside text*/
+    /*
+    #left-4-dev p {
+        padding-right: 900px;
+    }
+
+    #content-creator,
+    #left-4-dev {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #left-4-dev img {
+        float: right;
+        width: 50%;
+        height: auto;
+    }
+
+    #content-creator h2,
+    #content-creator p {
+        padding-left: 900px;
+    }
+
+    #content-creator img {
+        float: left;
+        width: 50%;
+        height: auto;
+    } */
+}

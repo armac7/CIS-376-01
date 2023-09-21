@@ -25,15 +25,17 @@ p {
 *************************************/
 .navbar {
     position: fixed;
-       top: 0;
-       z-index: 1030; /* to prevent the navbar getting covered up by other content */
-       width: 100%;
+    top: 0;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+    width: 100%;
 }
+
 .navbar-cyberpunk {
     background-color: #fcf700;
-    border-bottom: 4px #18181a solid;
+    border-bottom: 4px #00f1ff solid;
     color: #18181a;
 }
+
 .navbar-cyberpunk .navbar-nav .nav-link{
     position: relative;
     top: -10px;
@@ -135,92 +137,28 @@ p {
 /************************************* 
     About Me Styles
 *************************************/ 
+.cyber-content {
+    padding-top: 150px;
+}
+
+#humble-beginnings {
+    padding-top: 50px !important;
+}
+
+#beginning-video {
+    position: relative;
+}
+
 #left-for-dev {
     position: relative;
+}
+
+#beta-pack {
+    position: relative;
+    margin-left: 80px;
 }
 
 .img-about-me {
     width: 600px; 
     height: auto;
-}
-
-/************************************* 
-    Mobile Styles
-*************************************/ 
-@media (max-width: 1394px) {
-    #left-for-dev {
-        left: 0px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
-        margin-left: 310px;
-    }
-}
-
-/* Tablets */
-@media (max-width: 991px) {
-
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        margin-left: 190px;
-    }
-}
-
-
-@media only screen and (max-width: 576px) {
-    .navbar-cyberpunk .navbar-nav .nav-link{
-        position: relative;
-        top: 0px;
-        text-indent: 10px;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-
-    #main-content {
-        margin-top: 20px;
-    }
-}
-
-/* Mobile L */
-@media (max-width: 426px) {
-    #beta-pack {
-        width: 300px;
-        height: 200px;
-    }
-
-    #beginning-video {
-        width: 300px;
-        height: 200px;
-    }
-
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        margin-left: 50px;
-    }
-}
-
-/* Mobile M */
-@media (max-width: 376px) {
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        margin-left: 20px;
-    }
-}
-
-/* Mobile S */
-@media (max-width: 321px) {
-    .github-div,
-    .linkedin-div,
-    .indeed-div {
-        margin-left: 0px;
-    }
 }

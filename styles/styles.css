@@ -1,68 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Merriweather:ital,wght@0,700;1,700&display=swap');
-/* 
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif; 
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Kanit:ital,wght@0,800;1,800&family=Mulish:ital,wght@0,600;1,600&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Mulish', sans-serif;*/
 
 body {
-    background-color: #262630;
+    /* background-image: url("./imgs/ui/bg.jpg"); */
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba(33,33,33,1) 100%);
 }
 
-/* 
-    General Styles 
-*/
-.merriweather {
-    font-family: 'Merriweather', serif;
+/*************************************
+    Text Related Class
+*************************************/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.lato {
-    font-family: 'Lato', sans-serif;
+/*************************************
+    NAV Styles
+*************************************/
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+    width: 100%;
 }
 
-.cx-purple-bg {
-    background-color: #5d5871 !important;
+.navbar-cyberpunk {
+    background-color: #fcf700;
+    border-bottom: 4px #00f1ff solid;
+    color: #18181a;
 }
 
-.cx-sat-purple-bg {
-    background-color: #46166b !important;
+.navbar-collapse {
+    padding-top: 20px;
 }
 
-.cx-satpurp-b5 {
-    border: 5px #46166b solid;
+.navbar-cyberpunk .navbar-nav .nav-link{
+    position: relative;
+    top: -10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#18181a;
+    height: 144%;
 }
 
-
-/*
-    Header / NAV Styles
-*/
-.navbar-fixed {
-    left: 100px;
-    width: calc(100% - 200px);
+.navbar-cyberpunk .nav-item.active .nav-link,
+.navbar-cyberpunk .nav-item:focus .nav-link,
+.navbar-cyberpunk .nav-item:hover .nav-link {
+    color: #fcf700;
+    background-color: #18181a;
 }
 
-@media only screen and (max-width: 1120px) {
-    .navbar-fixed {
-        left: 0px;
-        width: 100%;
+.navbar-toggler-icon {
+    background-image: url(./imgs/ui/navbar-button-dark.png);
+}
+
+.navbar-toggler:focus {
+    .navbar-toggler-icon {
+        background-image: url(./imgs/ui/navbar-button.png);
     }
+    background-color: #18181a;
 }
 
-/*
-    Misc. Content
-*/
-.card {
-    background-color: rgba(0, 0, 0, 0.568);
-    border-radius: 10px;
+.active {
+    background-color: #18181a;
+    color: #fcf700 !important;
 }
 
-.card-title,
-.card-body {
-    color: white;
+/************************************* 
+    Introduction Styles
+*************************************/  
+#headshot {
+    width: 100%;
+    height: auto;
+    border: 10px #fcf700 solid;
 }
 
-@media only screen and (max-width: 576px) {
-    #intermediate-labs {
-        margin-top: 20% !important;
-    }
+#signature {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+    height: auto;
+    background-color: #18181aa9;
+    border: 5px #fcf700 solid;
+}
+
+#intro-text {
+    margin-top: 20px;
+
+}
+
+#socials {
+    position: relative;
+}
+
+.github-div,
+.linkedin-div,
+.indeed-div {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+}
+
+.github-div {
+    background-image: url(./imgs/ui/logos/github.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.github-div:hover {
+    background-image: url(./imgs/ui/logos/github-outline.png);
+    transition: .5s;
+}
+
+#linkedin-div {
+    background-image: url(./imgs/ui/logos/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#linkedin-div:hover {
+    background-image: url(./imgs/ui/logos/linkedin-outline.png);
+    transition: .5s;
+}
+
+#indeed-div {
+    background-image: url(./imgs/ui/logos/indeed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indeed-div:hover {
+    background-image: url(./imgs/ui/logos/indeed-outline.png);
+    transition: .5s;
+}
+
+/************************************* 
+    About Me Styles
+*************************************/
+#about-me-contents {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#small-beginnings-vid-div {
+    margin-left: 14px;
 }

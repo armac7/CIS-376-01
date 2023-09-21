@@ -1,0 +1,148 @@
+@media (max-width: 1025px) {
+    #beginning-video {
+        margin-left: 230px;
+    }
+
+    #beta-pack {
+        margin-left: 210px;
+    }
+}
+
+@media (max-width: 769px) {
+    .btn-cyber {
+        height: 70px;
+    }
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+
+    #socials {
+        margin-left: 250px;
+    }
+
+    #beginning-video-div {
+        padding-left: 25px;
+    }
+
+    #beginning-video {
+        margin-left: 25px;
+        margin-top: 0px !important;
+    }
+
+    .cyber-content {
+        padding-top: 50px;
+    }
+
+    #betapack-div {
+        margin-bottom: 30px;
+    }
+
+    #beta-pack {
+        margin-left: 50px;
+    }
+
+    #channel {
+        margin-top: 30px;
+    }
+}
+
+/* Mobile L 425px */
+@media (max-width: 426px) {
+    #beta-pack {
+        width: 300px;
+        height: 200px;
+    }
+
+    #beginning-video {
+        width: 300px;
+        height: 200px;
+    }
+
+    #socials {
+        margin-left: 90px;
+    }
+}
+
+/* Mobile M 375px */
+@media (max-width: 376px) {
+    .btn-cyber {
+        margin-top: 10px;
+    }
+
+    #socials {
+        margin-left: 90px;
+    }
+
+    #beginning-video-div {
+    }
+
+    #beginning-video {
+        position: relative;
+        margin-top: 0px !important;
+        left: -33px;
+    }
+
+    .cyber-content {
+        padding-top: 50px;
+    }
+
+    #betapack-div {
+        margin-bottom: 30px;
+    }
+
+    #channel {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn-cyber {
+        margin-top: 10px;
+    }
+}
+
+/* Mobile S 320px */
+@media (max-width: 321px) {
+    .btn-cyber {
+        margin-top: 10px;
+    }
+
+    #socials {
+        margin-left: 60px;
+    }
+
+    #beginning-video {
+        left: -50px;
+    }
+
+    #betapack-div {
+        margin-bottom: 40px;
+    }
+
+    #beta-pack {
+        left: -50px;
+    }
+}
+
+/* @media (max-width: 1394px) {
+    #left-for-dev {
+        left: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .github-div,
+    .linkedin-div,
+    .indeed-div {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 310px;
+    }
+}
+
+@media (max-width: 1025px) {
+    #beginning-video {
+        margin-left: 50px;
+    }
+}
