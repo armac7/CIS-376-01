@@ -45,12 +45,9 @@
         margin: 0 auto;
     }
 
-    nav .nav-tabs .nav-link {
-        margin-left: 35% !important;
-    }
-
-    nav #nav-second-tab,
-    nav #nav-third-tab {
-        margin-left: 0px !important;
+    .nav-tabs {
+        position: relative;
+        margin: 0 auto;
+        width: 400px;
     }
 }

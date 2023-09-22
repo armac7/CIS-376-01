@@ -7,7 +7,11 @@ body {
     /* background-image: url("./imgs/ui/bg.jpg"); */
     background: rgb(0,0,0);
     background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(24,24,26,1) 55%, rgba(33,33,33,1) 100%);
+    perspective: 1px;
+    transform-style: preserve-3d;
 }
+
+
 
 /*************************************
     Text Related Class
@@ -174,6 +178,7 @@ nav .tab-cyber {
     background-color: rgba(0, 0, 0, 0);
     border: 6px var(--cyber-grey) solid;
     max-width: 840px;
+    transition: 0s;
 }
 
 .tab-pane h2,
@@ -205,5 +210,20 @@ nav .btn-cyber-grey:hover {
 nav .btn-cyber-grey:focus {
     background-color: var(--cyber-yellow) !important;
     color: var(--cyber-grey) !important;
+    transition: 0s;
+    margin-top: 10px;
+}
+
+div .tab-pane .btn-cyber-grey {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div .tab-pane .btn-cyber-grey:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: var(--cyber-grey) !important;
+    font-size: 16px;
     transition: .5s;
+    padding: 10px;
+    width: 100%;
 }

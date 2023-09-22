@@ -16,7 +16,7 @@
 <body>
     
     <!----------------------------- NAV BAR ----------------------------->
-    <nav class="navbar navbar-expand-lg  navbar-cyberpunk navbar-fixed">
+    <nav class="navbar navbar-expand-lg  navbar-cyberpunk navbar-fixed position-sticky">
         <div class="container-fluid">
             <a class="navbar-brand cyber-bold-font cyber-grey" href="/index.html">
                 W. RYAN MCD.
@@ -48,8 +48,8 @@
     </nav>
     <!------------------------------------------------------------------->
 
-    <br><br>
-    <div class="container mt-5">
+    <br>
+    <div class="container mt-1" id="intro-container">
         <div class="row">
             <!-- My Headshot -->
             <div class="col-xl-5" data-aos="fade-right" data-aos-delay="100">
@@ -103,20 +103,21 @@
     <article class="container-fluid cyber-yellow-bg" id="about-me-contents">
 
         
-        <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button class="nav-link active btn-cyber-grey" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-                SMALL<br>BEGINNINGS
-            </button>
-              <button class="nav-link btn-cyber-grey" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">
-                LEFT<br>4 DEV
-            </button>
-              <button class="nav-link btn-cyber-grey" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">
-                CONTENT<br>CREATOR
-            </button>
-            </div>
-          </nav>
-          <div class="tab-content" id="nav-tabContent">
+        
+          <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active btn-cyber-grey" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                    SMALL<br>BEGINNINGS
+                </button>
+                  <button class="nav-link btn-cyber-grey" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">
+                    LEFT<br>4 DEV
+                </button>
+                  <button class="nav-link btn-cyber-grey" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">
+                    CONTENT<br>CREATOR
+                </button>
+                </div>
+              </nav>
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-first-tab">
                 <h2>SMALL BEGINNINGS</h2>
                 <p>
@@ -141,6 +142,7 @@
                     and its project statement met. I did attribute a handful of script mods to tck; however,
                     the majority of my work was graphic work, hence the new role.
                 </p>
+                <button class="btn btn-cyber-grey">Check out the Beta Pack</button>
                 <img class="img-fluid" src="./styles/imgs/projects/l4d_beta_pack.png">
             </div>
             <div class="tab-pane fade" id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab">
