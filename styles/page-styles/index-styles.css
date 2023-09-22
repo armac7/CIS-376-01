@@ -1,0 +1,140 @@
+/************************************* 
+    Introduction Styles
+*************************************/  
+#headshot {
+    width: 100%;
+    height: auto;
+    border: 10px var(--cyber-yellow) solid;
+}
+
+#signature {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+    height: auto;
+    background-color: #18181aa9;
+    border: 5px var(--cyber-yellow) solid;
+}
+
+#intro-text {
+    margin-top: 20px;
+
+}
+
+#socials {
+    position: relative;
+}
+
+.github-div,
+.linkedin-div,
+.indeed-div {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+}
+
+.github-div,
+.linkedin-div {
+    position: relative;
+    left: 2%;
+}
+
+.github-div {
+    background-image: url(../imgs/ui/logos/github.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.github-div:hover {
+    background-image: url(../imgs/ui/logos/github-outline.png);
+    transition: .5s;
+}
+
+#linkedin-div {
+    background-image: url(../imgs/ui/logos/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#linkedin-div:hover {
+    background-image: url(../imgs/ui/logos/linkedin-outline.png);
+    transition: .5s;
+}
+
+
+/************************************* 
+    About Me Styles
+*************************************/
+#about-me-contents {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#small-beginnings-vid-div {
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+nav .tab-cyber {
+    font-size: 15px !important;
+    padding: 0px;
+}
+
+.tab-pane {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 6px var(--cyber-grey) solid;
+    max-width: 840px;
+    transition: 0s;
+}
+
+.tab-pane h2,
+.tab-pane p {
+    color: var(--cyber-grey)
+}
+
+nav .btn-cyber-grey {
+    border: 0px !important;
+    border-top: 5px var(--cyber-grey) solid !important;
+    border-left: 5px var(--cyber-grey) solid !important;
+    border-right: 5px var(--cyber-grey) solid !important;
+    border-bottom: 0px;
+    text-indent: 0px;
+    display: inline;
+    padding: 0px !important;
+    margin: 0px;
+    font-size: 10px !important;
+    width: 30% !important;
+    max-width: 150px !important;
+}
+
+nav .btn-cyber-grey:hover {
+    background-color: var(--cyber-yellow);
+    color: var(--cyber-grey);
+    transition: .5s;
+}
+
+nav .btn-cyber-grey:focus {
+    background-color: var(--cyber-yellow) !important;
+    color: var(--cyber-grey) !important;
+    transition: 0s;
+    margin-top: 10px;
+}
+
+div .tab-pane .btn-cyber-grey {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div .tab-pane .btn-cyber-grey:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: var(--cyber-grey) !important;
+    font-size: 16px;
+    transition: .5s;
+    padding: 10px;
+    width: 100%;
+}

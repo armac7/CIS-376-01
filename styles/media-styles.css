@@ -1,4 +1,12 @@
+/*********************
+    This CSS file is a collection of every correction made
+    per page to make it response. It will be overarching sometimes,
+    and if not then it will be denoted per set of styles.
+**********************/
+
 @media only screen and (min-width: 768px) {
+
+    /* INDEX STYLES */
     #socials {
         margin-left: 160px;
     }
@@ -12,6 +20,7 @@
 }
 
 @media only screen and (min-width: 820px) {
+    /* INDEX STYLES */
     #small-beginnings-vid-div {
         margin-left: 0px;
         height: 430.20px;
@@ -21,10 +30,20 @@
 
 }
 
+@media only screen and (min-width: 850px) {
+    /* INDEX STYLES */
+    .nav-tabs {
+        position: relative;
+        margin: 0 auto;
+        width: 400px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .navbar {
         height: 60px;
     }
+
     .nav-item {
         position: relative;
         top: -10px;
@@ -36,6 +55,8 @@
 }
 
 @media only screen and (min-width: 1000px) {
+
+    /* INDEX STYLES */
     #socials {
         left: -120px;
         margin: 0 auto;
@@ -50,4 +71,5 @@
         margin: 0 auto;
         width: 400px;
     }
+
 }
