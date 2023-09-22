@@ -1,3 +1,8 @@
+:root {
+    --cyber-yellow: #fcf700;
+    --cyber-grey: #18181a;
+}
+
 /*************************************
     Text Related Class
 *************************************/
@@ -14,7 +19,7 @@
 }
 
 .cyber-yellow-shadow {
-    text-shadow: 2px 1px #fcf700;
+    text-shadow: 2px 1px --cyber-yellow;
 }
 
 .cyber-white-shadow {
@@ -23,18 +28,18 @@
 
 
 .btn-cyber {
-    background-color: #fcf700;
-    border: 4px #fcf700 solid;
+    background-color: var(--cyber-yellow);
+    border: 4px var(--cyber-yellow) solid;
     font-family: 'Josefin Sans', sans-serif;
-    color: #18181a;
+    color: var(--cyber-grey);
     padding: 10px;
     width: 100%;
     margin-top: 10px;
 }
 
 .btn-cyber:hover {
-    background-color: #18181a;
-    color: #fcf700;
+    background-color: var(--cyber-grey);
+    color: var(--cyber-yellow);
     font-size: 25px;
     transition: .5s;
     padding: 10px;
@@ -43,17 +48,17 @@
 }
 
 .btn-cyber-grey {
-    background-color: #18181a;
-    border: 4px #18181a solid;
-    color: #fcf700;
+    background-color: var(--cyber-grey) !important;
+    border: 4px var(--cyber-grey) solid !important;
+    color: var(--cyber-yellow) !important;
     font-family: 'Josefin Sans', sans-serif;
     padding: 10px;
     width: 100%;
 }
 
 .btn-cyber-grey:hover {
-    background-color: #fcf700;
-    color: #18181a;
+    background-color: var(--cyber-yellow);
+    color: var(--cyber-grey);
     font-size: 25px;
     transition: .5s;
     padding: 10px;
@@ -61,28 +66,34 @@
     margin-top: 5px;
 }
 
+.btn-cyber-grey:focus {
+    background-color: var(--cyber-yellow) !important;
+    color: var(--cyber-grey) !important;
+    transition: .5s;
+}
+
 /*************************************
     Color Styles
 *************************************/
 
 .cyber-yellow-bg {
-    background-color: #fcf700 !important;
+    background-color: var(--cyber-yellow) !important;
 }
 
 .cyber-yellow {
-    color: #fcf700 !important;
+    color: var(--cyber-yellow) !important;
 }
 
 .cyber-grey-bg {
-    background-color: #18181a !important;
+    background-color: var(--cyber-grey) !important;
 }
 
 .cyber-grey {
-    color: #18181a !important;
+    color: var(--cyber-grey) !important;
 }
 
 .cyber-border-grey-10 {
-    border: 10px #18181a solid;
+    border: 10px var(--cyber-grey) solid;
 }
 
 .cyber-black-hover:hover {

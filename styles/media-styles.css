@@ -5,16 +5,33 @@
 
     #small-beginnings-vid-div {
         margin-left: 0px;
-        height: 418.5px;
-        width: 744px;
+        height: 400.95px;
+        width: 712.8px;
+        margin: 0 auto;
     }
 }
 
 @media only screen and (min-width: 820px) {
     #small-beginnings-vid-div {
         margin-left: 0px;
-        height: 447.75px;
-        width: 796px;
+        height: 430.20px;
+        width: 764.8px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 60px;
+    }
+    .nav-item {
+        position: relative;
+        top: -10px;
+    }
+
+    .nav-link {
+        text-indent: 0px;
     }
 }
 
@@ -28,34 +45,12 @@
         margin: 0 auto;
     }
 
-
-
-    /* Old Attempt to put pics beside text*/
-    /*
-    #left-4-dev p {
-        padding-right: 900px;
+    nav .nav-tabs .nav-link {
+        margin-left: 35% !important;
     }
 
-    #content-creator,
-    #left-4-dev {
-        display: inline-block;
-        vertical-align: middle;
+    nav #nav-second-tab,
+    nav #nav-third-tab {
+        margin-left: 0px !important;
     }
-
-    #left-4-dev img {
-        float: right;
-        width: 50%;
-        height: auto;
-    }
-
-    #content-creator h2,
-    #content-creator p {
-        padding-left: 900px;
-    }
-
-    #content-creator img {
-        float: left;
-        width: 50%;
-        height: auto;
-    } */
 }

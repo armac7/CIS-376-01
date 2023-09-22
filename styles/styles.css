@@ -34,28 +34,32 @@ p {
 }
 
 .navbar-cyberpunk {
-    background-color: #fcf700;
+    background-color: var(--cyber-yellow);
     border-bottom: 4px #00f1ff solid;
-    color: #18181a;
+    color: var(--cyber-grey);
 }
 
 .navbar-collapse {
     padding-top: 20px;
 }
 
+.nav-link {
+    text-indent: 20px;
+}
+
 .navbar-cyberpunk .navbar-nav .nav-link{
     position: relative;
     top: -10px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#18181a;
+    color:var(--cyber-grey);
     height: 144%;
 }
 
 .navbar-cyberpunk .nav-item.active .nav-link,
 .navbar-cyberpunk .nav-item:focus .nav-link,
 .navbar-cyberpunk .nav-item:hover .nav-link {
-    color: #fcf700;
-    background-color: #18181a;
+    color: var(--cyber-yellow);
+    background-color: var(--cyber-grey);
 }
 
 .navbar-toggler-icon {
@@ -66,12 +70,12 @@ p {
     .navbar-toggler-icon {
         background-image: url(./imgs/ui/navbar-button.png);
     }
-    background-color: #18181a;
+    background-color: var(--cyber-grey);
 }
 
 .active {
-    background-color: #18181a;
-    color: #fcf700 !important;
+    background-color: var(--cyber-grey);
+    color: var(--cyber-yellow) !important;
 }
 
 /************************************* 
@@ -80,7 +84,7 @@ p {
 #headshot {
     width: 100%;
     height: auto;
-    border: 10px #fcf700 solid;
+    border: 10px var(--cyber-yellow) solid;
 }
 
 #signature {
@@ -89,7 +93,7 @@ p {
     width: 60%; 
     height: auto;
     background-color: #18181aa9;
-    border: 5px #fcf700 solid;
+    border: 5px var(--cyber-yellow) solid;
 }
 
 #intro-text {
@@ -154,5 +158,52 @@ p {
 }
 
 #small-beginnings-vid-div {
-    margin-left: 14px;
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+nav .tab-cyber {
+    font-size: 15px !important;
+    padding: 0px;
+}
+
+.tab-pane {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 6px var(--cyber-grey) solid;
+    max-width: 840px;
+}
+
+.tab-pane h2,
+.tab-pane p {
+    color: var(--cyber-grey)
+}
+
+nav .btn-cyber-grey {
+    border: 0px !important;
+    border-top: 5px var(--cyber-grey) solid !important;
+    border-left: 5px var(--cyber-grey) solid !important;
+    border-right: 5px var(--cyber-grey) solid !important;
+    border-bottom: 0px;
+    text-indent: 0px;
+    display: inline;
+    padding: 0px !important;
+    margin: 0px;
+    font-size: 10px !important;
+    width: 30% !important;
+    max-width: 150px !important;
+}
+
+nav .btn-cyber-grey:hover {
+    background-color: var(--cyber-yellow);
+    color: var(--cyber-grey);
+    transition: .5s;
+}
+
+nav .btn-cyber-grey:focus {
+    background-color: var(--cyber-yellow) !important;
+    color: var(--cyber-grey) !important;
+    transition: .5s;
 }
