@@ -11,6 +11,7 @@ font-family: 'Mulish', sans-serif;*/
 :root {
     --cyber-yellow: #fcf700;
     --cyber-grey: #18181a;
+    --cyber-blue: #00f1ff;
 }
 
 body {
@@ -33,7 +34,7 @@ body {
 
 .navbar-cyberpunk {
     background-color: var(--cyber-yellow);
-    border-bottom: 4px #00f1ff solid;
+    border-bottom: 4px var(--cyber-blue) solid;
     color: var(--cyber-grey);
 }
 
