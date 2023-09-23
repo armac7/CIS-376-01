@@ -13,8 +13,8 @@
 
     #small-beginnings-vid-div {
         margin-left: 0px;
-        height: 400.95px;
-        width: 712.8px;
+        height: 400.95px !important;
+        width: 712.8px !important;
         margin: 0 auto;
     }
 }
@@ -23,8 +23,8 @@
     /* INDEX STYLES */
     #small-beginnings-vid-div {
         margin-left: 0px;
-        height: 430.20px;
-        width: 764.8px;
+        height: 430.20px !important;
+        width: 764.8px !important;
         margin: 0 auto;
     }
 
@@ -65,7 +65,7 @@
     #small-beginnings-vid-div {
         margin: 0 auto;
     }
-
+    
     .nav-tabs {
         position: relative;
         margin: 0 auto;
