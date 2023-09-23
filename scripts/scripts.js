@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    // Calls JSON to fill in sections
+    // index.html
     IntroInfo();
     AboutMeInfo();
 
