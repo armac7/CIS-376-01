@@ -18,7 +18,7 @@ $(document).ready(function(){
 // Calls all the info in the introduction section in a very bad and chaotic manner,
 // but still better than having it all laid out on the HTML page.
 function IntroInfo() {
-    fetch("/lib/intro.json")
+    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/intro.json")
         .then(response => response.json())
         .then(data => {
             for (let i = 0; i < 2; i++) {
