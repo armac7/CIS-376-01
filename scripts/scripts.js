@@ -17,7 +17,7 @@ $(document).ready(function(){
 // but still better than having it all laid out on the HTML page.
 function AboutMeInfo() {
     let imgSrc="";
-    fetch("/lib/about-me.json")
+    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/about-me.json")
         .then(response => response.json())
         .then(data => {
             for (let i = 0; i < 3; i++) {
