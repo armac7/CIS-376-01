@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    IntroInfo();
     AboutMeInfo();
 
     $('.nav-tabs #small-beginnings').tab('show');
@@ -12,9 +13,21 @@ $(document).ready(function(){
     });
 } );
 
-
-// Calls all the info in the about me pills in a very bad and chaotic manner,
+// Calls all the info in the introduction section in a very bad and chaotic manner,
 // but still better than having it all laid out on the HTML page.
+function IntroInfo() {
+    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/intro.json")
+        .then(response => response.json())
+        .then(data => {
+            for (let i = 0; i < 2; i++) {
+                $("#headshot-div").append(data[0].imgs[i]);
+            }
+            $("#intro-header").html(data[0].header);
+            $("#intro-text").html(data[0].content);
+        });
+}
+
+// Does the same thing as above but for the "about me" pills.
 function AboutMeInfo() {
     let imgSrc="";
     fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/about-me.json")
