@@ -17,7 +17,7 @@ $(document).ready(function(){
 // but still better than having it all laid out on the HTML page.
 function AboutMeInfo() {
     let imgSrc="";
-    fetch("../lib/about-me.json")
+    fetch("/lib/about-me.json")
         .then(response => response.json())
         .then(data => {
             for (let i = 0; i < 3; i++) {
