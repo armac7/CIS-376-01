@@ -1,7 +1,7 @@
 [
     {
         "header" : "I.T. Student, Programmer, <br>Aspiring Game Dev, Graphic Designer, and Content Creator.<br>",
-        "content" : "Hello, There! I'm <span class=\"cyber-yellow\">RYAN MCDONALD</span>. I've been \"coding\", if you could even call my early days of \"this\" coding, since I was around ~10-11. If you want to skip straight to the good stuff, you can click the button below. Or, if you would rather have an in-depth idea of my background, you can scroll down. Your choice, choom. Also, if you can't already tell, if you aren't a game freak, this page is inspired by one of my favorite games, Cyberpunk 2077.",
+        "content" : "Hello, There! I am <span class=\"cyber-yellow\">WILLIAM RYAN MCDONALD</span>. I have been coding and creating a variety of content, from video to graphics, for <span class=\"cyber-yellow\">over a decade</span> in my own time, ever since I was around ten or eleven.<br><br> I have experience working as a graphic designer for many teams in a wide array of scenarios, and as a developer for smaller modding development teams for some of my favorite games. My primary skills consist of <span class=\"cyber-yellow\">Adobe Suite (Graphic Design and Editing)</span>, and <span class=\"cyber-yellow\">Web Development (new to it)</span>, <span class=\"cyber-yellow\">Programming</span>.",
         "imgs": ["<img class=\"img-fluid\" src=\"./styles/imgs/ai_me_cyberpunk.png\" id=\"headshot\">",
                  "<img class=\"img-fluid position-relative\" src=\"./styles/imgs/signature.png\" id=\"signature\">"]
     }

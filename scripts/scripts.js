@@ -90,6 +90,7 @@ function navScrollChange() {
 function IntroInfo() {
     let itemsInFile = 2;
     // for some reason, this link OCCASIONALLY works. Not sure why not always.
+    //fetch("/lib/intro.json")
     fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/intro.json")
         .then(response => response.json())
         .then(data => {

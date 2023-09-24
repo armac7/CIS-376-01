@@ -86,15 +86,16 @@ nav .tab-cyber {
 .tab-pane {
     margin: 0 auto;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--cyber-grey);
     border: 6px var(--cyber-grey) solid;
     max-width: 840px;
     transition: 0s;
+    border-radius: 5px;
 }
 
 .tab-pane h2,
 .tab-pane p {
-    color: var(--cyber-grey)
+    color: white;
 }
 
 nav .btn-cyber-grey {

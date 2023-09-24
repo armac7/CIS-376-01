@@ -21,6 +21,7 @@
     margin-top: 20px;
     margin-left: 12px;
     width: 93.5%;
+    border-radius: 5px;
 }
 
 #work-header h2 {
@@ -31,6 +32,7 @@
 #cis-376-content,
 #gfx-content {
     margin-top: 10px;
+    border-radius: 5px;
     padding: 10px;
     background-color: var(--cyber-grey);
 }
