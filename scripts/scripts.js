@@ -137,7 +137,8 @@ function AboutMeInfo() {
 
 // Gets content for Portfolio page from JSON file
 function fetchPortfolio() {
-    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/portfolio.json")
+    //fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/portfolio.json")
+    fetch("/lib/portfolio.json")
         .then(response => response.json())
         .then(data => {
             $('#portfolio-h1').html(data[0].header);
@@ -147,5 +148,9 @@ function fetchPortfolio() {
             $('#c376-p').html(data[2].content);
             $('#portfolio-card-head').html(data[3].header);
             $('#portfolio-card-text').html(data[3].content);
+            $('#gfx-header').html(data[4].header);
+            $('#gfx-p').html(data[4].content);
+            $('#gfx-card-head').html(data[5].header);
+            $('#gfx-card-text').html(data[5].content);
         });
 }

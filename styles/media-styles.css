@@ -84,6 +84,11 @@
     }
 
     /* PORTFOLIO STYLES */
+    #portfolio-row {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
     #work-header {
         width: 98.5%;
     }

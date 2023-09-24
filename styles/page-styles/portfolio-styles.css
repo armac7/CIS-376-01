@@ -1,13 +1,12 @@
+#portfolio-header .col-xl-12 h1 {
+    margin-top: 30px;
+    text-align: center;
+}
 
 #portfolio-header .col-xl-12 p {
     margin: 0 auto;
     text-indent: 30px;
     text-align: justify;
-}
-
-#portfolio-header .col-xl-12 h1 {
-    margin-top: 30px;
-    text-align: center;
 }
 
 /*
@@ -30,17 +29,18 @@
 }
 
 #cis-376-content,
-#placeholder {
+#gfx-content {
     margin-top: 10px;
     padding: 10px;
     background-color: var(--cyber-grey);
 }
 
-#placeholder {
+/* #gfx-content {
     height: 98.5%;
-}
+} */
 
-#cis-376-content h2 {
+#cis-376-content h2,
+#gfx-content h2 {
     margin-top: 10px;
     margin-left: 10px;
 }
