@@ -8,6 +8,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/page-styles/portfolio-styles.css">
     <link rel="stylesheet" href="../styles/cyber-styles.css">
     <link rel="stylesheet" href="../styles/media-styles.css">
     
@@ -15,13 +16,13 @@
 <body>
     
     <!----------------------------- NAV BAR ----------------------------->
-    <nav class="navbar navbar-expand-lg  navbar-cyberpunk navbar-fixed position-sticky">
+    <nav class="navbar navbar-expand-lg  navbar-cyberpunk navbar-fixed position-sticky" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand cyber-bold-font cyber-grey" href="/index.html">
+            <a class="navbar-brand cyber-bold-font" id="navbar-header" href="/index.html">
                 W. RYAN MCD.
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon" id="navbar-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
@@ -32,28 +33,70 @@
                         <a class="nav-link" href="./interests.html">INTERESTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">PORTFOLIO</a>
+                        <a class="nav-link active" id="active" href="#">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Check this page's validation</a>
                     </li>
-                    <!-- <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> -->
                 </ul>
             </div>
         </div>
     </nav>
     <!------------------------------------------------------------------->
 
+    <div class="container-fluid" id="portfolio-header">
+        <div class="row cyber-parallax" id="portfolio-row">
+            <div class="col-xl-12 text-white" data-aos="fade-up">
+                <h1 id="portfolio-h1">PLACEHOLDER HEADER</h1>
+                <p id="portfolio-p">PLACEHOLDER CONTENT</p>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid cyber-yellow-bg" id="my-work">
+        <div class="row">
+            <div class="col-xl-12 text-center cyber-yellow" id="work-header" data-aos="fade-down" data-aos-delay="100">
+                <h2 id="work-h2">PLACEHOLDER</h2>
+            </div>
+        </div>
+        <div class="row" id="cis-376">
+            <div class="col-xl-6">
+                <div id="cis-376-content" data-aos="fade-right" data-aos-delay="200">
+                    <h2 class="text-white" id="c376-header">
+                        PLACEHOLDER
+                    </h2>
+                    <p class="text-white" id="c376-p">
+                        PLACEHOLDER
+                    </p>
+                    <div class="cyber-card" data-aos="fade-right" data-aos-delay="100">
+                        <h2 class="cyber-card-header" id="portfolio-card-head">
+                            PLACEHOLDER
+                        </h2>
+                        <p class="text-white" id="portfolio-card-text">
+                            PLACEHOLDER
+                        </p>
+                        
+                        <a href="./labs.html"><button class="btn cyber-card-btn cyber-header-font">LABS</button></a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div id="placeholder" data-aos="fade-right" data-aos-delay="100">
+                    <h2 class="text-white">
+                        Nothing to see here yet.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
     <br>
     
     <!-- Footer -->
-    <div class="mt-5 p-3 bg-dark text-center cyber-yellow-bg">
-        <p class="cyber-bold-font">
-            PLACEHOLDER FOOTER
-        </p>
+    <div class="mt-4 p-3 bg-dark text-center cyber-yellow-bg" style="border-top: 4px var(--cyber-blue) solid;">
+        <p class="cyber-bold-font text-center"></p>
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>

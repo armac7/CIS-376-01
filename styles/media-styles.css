@@ -17,6 +17,17 @@
         width: 712.8px !important;
         margin: 0 auto;
     }
+
+    /* PORTFOLIO STYLES */
+    #work-header {
+        width: 97%;
+    }
+
+    #portfolio-row {
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media only screen and (min-width: 820px) {
@@ -72,4 +83,8 @@
         width: 400px;
     }
 
+    /* PORTFOLIO STYLES */
+    #work-header {
+        width: 98.5%;
+    }
 }

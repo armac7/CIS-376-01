@@ -32,10 +32,22 @@ body {
     width: 100%;
 }
 
+.navbar-brand {
+    color: var(--cyber-grey);
+}
+
 .navbar-cyberpunk {
     background-color: var(--cyber-yellow);
     border-bottom: 4px var(--cyber-blue) solid;
     color: var(--cyber-grey);
+    transition: .5s;
+}
+
+.navbar-cyberpunk-alt {
+    background-color: var(--cyber-grey);
+    border-bottom: 4px var(--cyber-blue) solid;
+    color: var(--cyber-yellow);
+    transition: .5s;
 }
 
 .navbar-collapse {
@@ -50,19 +62,38 @@ body {
     position: relative;
     top: -10px;
     font-family: 'Josefin Sans', sans-serif;
-    color:var(--cyber-grey);
+    color: var(--cyber-grey);
+    height: 144%;
+}
+
+.navbar-cyberpunk-alt .navbar-nav .nav-link{
+    position: relative;
+    top: -10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cyber-yellow);
     height: 144%;
 }
 
 .navbar-cyberpunk .nav-item.active .nav-link,
 .navbar-cyberpunk .nav-item:focus .nav-link,
 .navbar-cyberpunk .nav-item:hover .nav-link {
-    color: var(--cyber-yellow);
+    color: var(--cyber-yellow) !important;
     background-color: var(--cyber-grey);
+}
+
+.navbar-cyberpunk-alt .nav-item.active .nav-link,
+.navbar-cyberpunk-alt .nav-item:focus .nav-link,
+.navbar-cyberpunk-alt .nav-item:hover .nav-link {
+    color: var(--cyber-grey) !important;
+    background-color: var(--cyber-yellow);
 }
 
 .navbar-toggler-icon {
     background-image: url(./imgs/ui/navbar-button-dark.png);
+}
+
+.navbar-toggler-icon-alt {
+    background-image: url(./imgs/ui/navbar-button.png);
 }
 
 .navbar-toggler:focus {
@@ -75,6 +106,11 @@ body {
 .active {
     background-color: var(--cyber-grey);
     color: var(--cyber-yellow) !important;
+}
+
+.active-alt {
+    background-color: var(--cyber-yellow);
+    color: var(--cyber-grey) !important;
 }
 
 /*************************************
@@ -170,6 +206,57 @@ p {
 }
 
 /*************************************
+    Card Styles
+*************************************/
+.cyber-card {
+    width: 100%;
+    background-color: var(--cyber-grey);
+    border: 4px var(--cyber-blue) solid;
+    
+}
+
+.cyber-card-header {
+    position: relative;
+    left: -10px;
+    top: -10px;
+    padding: 5px;
+    background-color: var(--cyber-yellow);
+    width: 100%;
+    
+}
+
+.cyber-card-btn {
+    background-color: var(--cyber-yellow);
+    border: 5px var(--cyber-yellow) solid;
+    width: 40%;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cyber-card-btn:hover {
+    background-color: var(--cyber-grey);
+    color: white;
+    transition: .3s;
+
+}
+
+.cyber-card-btn-alt {
+    background-color: var(--cyber-grey);
+    border: 5px var(--cyber-yellow) solid;
+    color: white;
+    width: 40%;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cyber-card-btn-alt:hover {
+    background-color: var(--cyber-yellow);
+    color: var(--cyber-grey);
+}
+
+/*************************************
     Color Styles
 *************************************/
 
@@ -197,3 +284,17 @@ p {
     transition: .5s;
     filter: drop-shadow(16px 16px 10px black);
 }
+
+.cyber-parallax {
+    /* The image used */
+    background-image: url("./imgs/header/coding-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

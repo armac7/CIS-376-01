@@ -1,0 +1,46 @@
+
+#portfolio-header .col-xl-12 p {
+    margin: 0 auto;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#portfolio-header .col-xl-12 h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*
+    MY WORK Styles
+*/
+#my-work {
+    padding-bottom: 30px;
+}
+
+#work-header {
+    background-color: var(--cyber-grey);
+    margin-top: 20px;
+    margin-left: 12px;
+    width: 93.5%;
+}
+
+#work-header h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#cis-376-content,
+#placeholder {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--cyber-grey);
+}
+
+#placeholder {
+    height: 98.5%;
+}
+
+#cis-376-content h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
