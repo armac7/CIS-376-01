@@ -137,7 +137,7 @@ function AboutMeInfo() {
 
 // Gets content for Portfolio page from JSON file
 function fetchPortfolio() {
-    fetch("/lib/portfolio.json")
+    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/portfolio.json")
         .then(response => response.json())
         .then(data => {
             $('#portfolio-h1').html(data[0].header);
