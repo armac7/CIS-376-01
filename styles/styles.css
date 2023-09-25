@@ -208,6 +208,15 @@ p {
 /*************************************
     Card Styles
 *************************************/
+.cyber-info {
+    background-color: var(--cyber-grey);
+    padding: 20px;
+}
+
+.cyber-info h2 {
+    padding-left: 10px;
+}
+
 .cyber-card {
     width: 100%;
     background-color: var(--cyber-grey);

@@ -92,4 +92,9 @@
     #work-header {
         width: 98.5%;
     }
+
+    /* LAB STYLES */
+    #labs-footer {
+        margin-top: 195px !important;
+    }
 }
