@@ -78,6 +78,19 @@
     margin: 0 auto;
 }
 
+.nav-tabs .nav-item {
+    background-color: var(--cyber-yellow);
+    border: 2px var(--cyber-grey) solid;
+    border-radius: 3px;
+    color: var(--cyber-grey) !important;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.active {
+    background-color: var(--cyber-grey) !important;
+    color: var(--cyber-yellow) !important;
+}
+
 nav .tab-cyber {
     font-size: 15px !important;
     padding: 0px;
