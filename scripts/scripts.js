@@ -47,8 +47,8 @@ function navScrollChange() {
                     minScroll = 700;
                 } else if (width > 700) {
                     minScroll = 1685;
-                } else if (width > 200) {
-                    minScroll = 1490;
+                } else if (width > 300) {
+                    minScroll = 1550;
                 }
                 break;
             case "portfolio.html":
@@ -107,17 +107,19 @@ function IntroInfo() {
 function AboutMeInfo() {
     let imgSrc="";
     let itemsInFile = 3;
-    fetch("https://raw.githubusercontent.com/Azyn7/CIS-376-01/main/lib/about-me.json")
+    fetch("../lib/about-me.json")
         .then(response => response.json())
         .then(data => {
             for (let i = 0; i < itemsInFile; i++) {
                 switch (i) {
                     case 0:
+                        $('#nav-first-code').html(data[i].code);
                         $('#nav-first-tab').html(data[i].tab);
                         $('#nav-first-header').html(data[i].header);
                         $('#nav-first-content').html(data[i].content);
                         break;
                     case 1:
+                        $('#nav-second-code').html(data[i].code);
                         $('#nav-second-tab').html(data[i].tab);
                         $('#nav-second-header').html(data[i].header);
                         $('#nav-second-content').html(data[i].content);
@@ -125,6 +127,7 @@ function AboutMeInfo() {
                         $('#nav-second').append(imgSrc);
                         break;
                     case 2:
+                        $('#nav-third-code').html(data[i].code);
                         $('#nav-third-tab').html(data[i].tab);
                         $('#nav-third-header').html(data[i].header);
                         $('#nav-third-content').html(data[i].content);

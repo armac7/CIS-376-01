@@ -80,6 +80,7 @@ body {
 .navbar-cyberpunk .nav-item:hover .nav-link {
     color: var(--cyber-yellow) !important;
     background-color: var(--cyber-grey);
+    border-bottom: 5px var(--cyber-red) solid !important;
 }
 
 .navbar-cyberpunk-alt .nav-item.active .nav-link,
@@ -87,6 +88,7 @@ body {
 .navbar-cyberpunk-alt .nav-item:hover .nav-link {
     color: var(--cyber-grey) !important;
     background-color: var(--cyber-yellow);
+    border-bottom: 5px var(--cyber-red) solid !important;
 }
 
 .navbar-toggler-icon {
@@ -143,6 +145,41 @@ p {
     font-family: 'Kanit', sans-serif !important;
 }
 
+#footer-header {
+    border-bottom: 3px var(--cyber-grey) solid;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#footer p {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 15px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: var(--cyber-red);
+}
+
+#footer-socials {
+    width: 30% !important;
+}
+
+.github-footer {
+    position: relative;
+    left: 70%;
+}
+
+.youtube-footer {
+    position: relative;
+    left: -70%;
+}
+
 /*************************************
     Design Related Styles
 *************************************/
@@ -177,11 +214,8 @@ p {
 .btn-cyber:hover {
     background-color: var(--cyber-grey);
     color: var(--cyber-yellow);
-    font-size: 25px;
     transition: .5s;
-    padding: 10px;
     width: 100%;
-    margin-top: 5px;
 }
 
 .btn-cyber-grey {
@@ -196,9 +230,7 @@ p {
 .btn-cyber-grey:hover {
     background-color: var(--cyber-yellow);
     color: var(--cyber-grey);
-    font-size: 25px;
     transition: .5s;
-    padding: 10px;
     width: 100%;
     margin-top: 5px;
 }

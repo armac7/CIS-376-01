@@ -34,6 +34,9 @@
                         <a class="nav-link" href="./pages/portfolio.html">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.dropbox.com/scl/fi/3hxtth57owwce7mgpo8os/MCDONALD-WILLIAM-RYAN-Resume-v2.pdf?rlkey=24y9s5509b3mr4xe6888qrgz8&dl=0">RESUME</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Check this page's validation</a>
                     </li>
                 </ul>
@@ -43,6 +46,7 @@
     <!-- -->
 
     <br>
+    <!-- Intro Section -->
     <div class="container mt-1" id="intro-container">
         <div class="row">
             <!-- My Headshot -->
@@ -64,7 +68,7 @@
                         <button class="btn-cyber cyber-header-font" onclick="window.location.href='#about-me'">ABOUT ME</button>
                     </div>
                     <div class="col">
-                        <button class="btn-cyber cyber-header-font" onclick="window.location.href='#skills'">SKILLS</button>
+                        <button class="btn-cyber cyber-header-font" onclick="window.location.href='#skill-menu'">SKILLS</button>
                     </div>
                     <div class="col">
                         <button class="btn-cyber cyber-header-font" onclick="window.open('https://codepen.io/azyn7','_blank')">CODEPEN</button>
@@ -85,64 +89,128 @@
     <!-- About Me -->
     <div class="container-fluid cyber-yellow-bg" id="about-me">
         <p style="font-size: 15px;">///header.call_about()</p>
-        <h1 style="font-size: 50px; border-bottom: 3px var(--cyber-grey) solid;"><::About Me::></h1>
+        <h1 id="about-me-header"><::ABOUT ME::></h1>
         <br>
-        <ul class="nav nav-tabs" id="cyber-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link text-white active" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SB</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link text-white" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">L4D</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link text-white" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">CC</button>
-            </li>
-        </ul>
-        <div class="tab-content mt-2" id="nav-tabContent" data-aos="fade-up">
-            <!-- Small Beginnings -->
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-first-tab">
-                <h2 class="" id="nav-first-header">
-                    HEADER 1
-                </h2>
-                <p id="nav-first-content">
-                    CONTENT 1
-                </p>
-                <!-- <div class="embed-responsive embed-responsive-16by9" id="small-beginnings-vid-div">
-                    <iframe id="small-beginnings-vid-div" class="embed-responsive-item" src="https://www.youtube.com/embed/5fUxwU0yQXk?si=etVxgPDJKmw7kTXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div> -->
+        <!-- Navigation for Tabs -->
+        <div class="row" data-aos="fade-right">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8">
+                <img class="img-fluid" src="./styles/imgs/ui/btn-group-red.png">
+                    <ul class="nav nav-tabs" id="about-me-tab-group">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Test</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">Test</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">Test</button>
+                        </li>
+                    </ul>
+                </img>
+        </img>
             </div>
+        </div>
 
-            <!-- Left 4 Dev -->
-            <div class="tab-pane fade" id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab">
-                <h2 id="nav-second-header">
-                    HEADER 2
-                </h2>
-                <p id="nav-second-content">
-                    CONTENT 2
-                </p>
-                <a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=413903495"><button class="btn btn-cyber">Beta Pack Page</button></a>
+        <!-- Tabs -->
+        <div class="row">
+            <div class="col-xl-2">
+                <!-- Filler Col-->
             </div>
+            <div class="col-xl-8">
+                <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
+                    <!-- Small Beginnings -->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-first-tab">
+                        <p class="code-call" id="nav-first-code">CODE 1</p>
+                        <h2 class="" id="nav-first-header">
+                            HEADER 1
+                        </h2>
+                        <p id="nav-first-content">
+                            CONTENT 1
+                        </p>
+                        <!-- <div class="embed-responsive embed-responsive-16by9" id="small-beginnings-vid-div">
+                            <iframe id="small-beginnings-vid-div" class="embed-responsive-item" src="https://www.youtube.com/embed/5fUxwU0yQXk?si=etVxgPDJKmw7kTXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div> -->
+                    </div>
+        
+                    <!-- Left 4 Dev -->
+                    <div class="tab-pane fade" id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab">
+                        <p class="code-call" id="nav-second-code">CODE 2</p>
+                        <h2 id="nav-second-header">
+                            HEADER 2
+                        </h2>
+                        <p id="nav-second-content">
+                            CONTENT 2
+                        </p>
+                        <button class="btn btn-cyber" onclick="window.open('https://steamcommunity.com/sharedfiles/filedetails/?id=413903495', '_blank')">Beta Pack Page</button>
+                    </div>
+        
+                    <!-- Content Creator -->
+                    <div class="tab-pane fade" id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab">
+                        <p class="code-call" id="nav-third-code">CODE 3</p>
+                        <h2 id="nav-third-header">
+                            HEADER 3
+                        </h2>
+                        <p id="nav-third-content">
+                            CONTENT 3
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-2">
+                <!-- Filler Col-->
+            </div>
+            <br><Br>
+        </div>
 
-            <!-- Content Creator -->
-            <div class="tab-pane fade" id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab">
-                <h2 id="nav-third-header">
-                    HEADER 3
-                </h2>
-                <p id="nav-third-content">
-                    CONTENT 3
-                </p>
+    <br><br><br>
+    
+    <div class="container-fluid cyber-yellow-bg" id="skill-menu">
+        <p style="font-size: 15px;">///header.call_skillMenu()</p>
+        <h1 id="about-me-header"><::SKILLS::></h1>
+        <br>
+        <div class="row">
+            <div class="col">
+                ...FAILED TO LOAD "skillMenu"; (W.I.P)
             </div>
         </div>
     </div>
 
-    <br><br><Br>
-    <!-- About Me Pills -->
-    
+    <br><br><br>
 
-    
     <!-- Footer -->
-    <div class="mt-4 p-3 bg-dark text-center cyber-yellow-bg" style="border-top: 4px var(--cyber-blue) solid;">
-        <p class="cyber-bold-font text-center"></p>
+    <div id="footer" class="mt-4 p-3 bg-dark text-center cyber-yellow-bg" style="min-height: 200px; border-top: 4px var(--cyber-blue) solid;">
+        <div class="row mt-3 mb-3">
+            <div class="col-xl-4 mb-5">
+                <h1 id="footer-header" style="width: 80%; margin: 0 auto;">W. RYAN MCD.</h1>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col">
+                        <a target="_blank" href="https://github.com/Azyn7"><img class="github-footer" id="footer-socials" src="./styles/imgs/ui/logos/github-grey.png" class="img-fluid" style="width: 100%;"></a>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://www.linkedin.com/in/wrmcd/"><img id="footer-socials" src="./styles/imgs/ui/logos/linkedin-grey.png" class="img-fluid" style="width: 100%;"></a>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://www.youtube.com/@wickynii"><img class="youtube-footer" id="footer-socials" src="./styles/imgs/ui/logos/youtube-grey.png" class="img-fluid" style="width: 100%;"></a>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-xl-4 mb-5">
+                <h4>QUICK LINKS</h4>
+                <p style="text-align: center;">
+                    <a href="">Back to Top</a><br>
+                    <a target="_blank" href="https://www.dropbox.com/scl/fi/3hxtth57owwce7mgpo8os/MCDONALD-WILLIAM-RYAN-Resume-v2.pdf?rlkey=24y9s5509b3mr4xe6888qrgz8&dl=0">Resume</a><br>
+                    <a target="_blank" href="https://github.com/Azyn7/CIS-376-01">Page GitHub Repo</a><br>
+                </p>
+            </div>
+            <div class="col-xl-4 mb-5">
+                <h4>CONTACT</h4>
+                <p style="text-align: center;">
+                    w.mcd0320@gmail.com<br>
+                </p>
+            </div>
+        </div>
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
