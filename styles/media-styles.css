@@ -3,8 +3,16 @@
     per page to make it response. It will be overarching sometimes,
     and if not then it will be denoted per set of styles.
 **********************/
+@media only screen and (min-width: 375px) {
+    .btn-cyber {
+        height: 80px;
+    }
+}
 
 @media only screen and (min-width: 768px) {
+    .btn-cyber {
+        height: auto;
+    }
 
     /* INDEX STYLES */
     #socials {

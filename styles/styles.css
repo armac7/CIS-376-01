@@ -12,6 +12,7 @@ font-family: 'Mulish', sans-serif;*/
     --cyber-yellow: #fcf700;
     --cyber-grey: #18181a;
     --cyber-blue: #00f1ff;
+    --cyber-red: #e5132a;
 }
 
 body {
@@ -106,11 +107,13 @@ body {
 .active {
     background-color: var(--cyber-grey);
     color: var(--cyber-yellow) !important;
+    border-bottom: 5px var(--cyber-red) solid !important;
 }
 
 .active-alt {
     background-color: var(--cyber-yellow);
     color: var(--cyber-grey) !important;
+    border-bottom: 5px var(--cyber-red) solid !important;
 }
 
 /*************************************
@@ -168,6 +171,7 @@ p {
     padding: 10px;
     width: 100%;
     margin-top: 10px;
+    text-decoration: none !important;
 }
 
 .btn-cyber:hover {

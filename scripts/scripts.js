@@ -20,6 +20,7 @@ $(document).ready(function(){
 
     // portfolio.html
     fetchPortfolio();
+    
 } );
 
 function getCurrentFileName(){
@@ -112,22 +113,22 @@ function AboutMeInfo() {
             for (let i = 0; i < itemsInFile; i++) {
                 switch (i) {
                     case 0:
-                        $('#nav-first-tab').html(data[0].tab[i]);
-                        $('#nav-first-header').html(data[0].header[i]);
-                        $('#nav-first-content').html(data[0].content[i]);
+                        $('#nav-first-tab').html(data[i].tab);
+                        $('#nav-first-header').html(data[i].header);
+                        $('#nav-first-content').html(data[i].content);
                         break;
                     case 1:
-                        $('#nav-second-tab').html(data[0].tab[i]);
-                        $('#nav-second-header').html(data[0].header[i]);
-                        $('#nav-second-content').html(data[0].content[i]);
-                        imgSrc = "<img id=\"nav-second-img\" class=\"img-fluid cyber-grey-border\" src=\"" + data[0].img[i] + "\">"
+                        $('#nav-second-tab').html(data[i].tab);
+                        $('#nav-second-header').html(data[i].header);
+                        $('#nav-second-content').html(data[i].content);
+                        imgSrc = "<img id=\"nav-second-img\" class=\"img-fluid cyber-grey-border\" src=\"" + data[i].img + "\">"
                         $('#nav-second').append(imgSrc);
                         break;
                     case 2:
-                        $('#nav-third-tab').html(data[0].tab[i]);
-                        $('#nav-third-header').html(data[0].header[i]);
-                        $('#nav-third-content').html(data[0].content[i]);
-                        imgSrc = "<img id=\"nav-third-img\" class=\"img-fluid cyber-grey-border\" src=\"" + data[0].img[i] + "\">"
+                        $('#nav-third-tab').html(data[i].tab);
+                        $('#nav-third-header').html(data[i].header);
+                        $('#nav-third-content').html(data[i].content);
+                        imgSrc = "<img id=\"nav-third-img\" class=\"img-fluid cyber-grey-border\" src=\"" + data[i].img + "\">"
                         $('#nav-third').append(imgSrc);
                         break;
                 }

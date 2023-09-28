@@ -61,13 +61,13 @@
                 <!-- Buttons at bottom of introduction -->
                 <div class="row">
                     <div class="col">
-                        <a href="./pages/portfolio.html"><button class="btn-cyber cyber-header-font">PORTFOLIO</button></a>
+                        <button class="btn-cyber cyber-header-font" onclick="window.location.href='#about-me'">ABOUT ME</button>
                     </div>
                     <div class="col">
-                        <a target="_blank" href="https://github.com/Azyn7/CIS-376-01"><button class="btn-cyber cyber-header-font">PAGE REPO</button></a>
+                        <button class="btn-cyber cyber-header-font" onclick="window.location.href='#skills'">SKILLS</button>
                     </div>
                     <div class="col">
-                        <a target="_blank" href="https://codepen.io/azyn7"><button class="btn-cyber cyber-header-font">CODEPEN</button></a>
+                        <button class="btn-cyber cyber-header-font" onclick="window.open('https://codepen.io/azyn7','_blank')">CODEPEN</button>
                     </div>
                 </div>
                 
@@ -76,37 +76,40 @@
             <div class="col-xl-1" data-aos="fade-up" data-aos-delay="400">
                 <div class="row mb-5" id="socials">
                     <a target="_blank" id="github-img-link" href="https://github.com/Azyn7"><div class="col-lg-3 github-div" id="github-div"></div></a>
-                    <a target="_blank" id="linkedin-img-link" href="https://www.linkedin.com/in/williamryanmcdonald/"><div class="col-lg-3 linkedin-div" id="linkedin-div"></div></a>
+                    <a target="_blank" id="linkedin-img-link" href="https://www.linkedin.com/in/wrmcd/"><div class="col-lg-3 linkedin-div" id="linkedin-div"></div></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- About Me Pills -->
-    <article class="container-fluid cyber-yellow-bg" id="about-me-contents">
+    <!-- About Me -->
+    <div class="container-fluid cyber-yellow-bg" id="about-me">
+        <p style="font-size: 15px;">///header.call_about()</p>
+        <h1 style="font-size: 50px; border-bottom: 3px var(--cyber-grey) solid;"><::About Me::></h1>
+        <br>
         <ul class="nav nav-tabs" id="cyber-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link cyber-grey active" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SB</button>
+                <button class="nav-link text-white active" id="nav-first-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">SB</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link cyber-grey" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">L4D</button>
+                <button class="nav-link text-white" id="nav-second-tab" data-bs-toggle="tab" data-bs-target="#nav-second" type="button" role="tab" aria-controls="nav-second" aria-selected="false">L4D</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link cyber-grey" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">CC</button>
+                <button class="nav-link text-white" id="nav-third-tab" data-bs-toggle="tab" data-bs-target="#nav-third" type="button" role="tab" aria-controls="nav-third" aria-selected="false">CC</button>
             </li>
         </ul>
-        <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
+        <div class="tab-content mt-2" id="nav-tabContent" data-aos="fade-up">
             <!-- Small Beginnings -->
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-first-tab">
-                <h2 id="nav-first-header">
+                <h2 class="" id="nav-first-header">
                     HEADER 1
                 </h2>
                 <p id="nav-first-content">
                     CONTENT 1
                 </p>
-                <div class="embed-responsive embed-responsive-16by9" id="small-beginnings-vid-div">
+                <!-- <div class="embed-responsive embed-responsive-16by9" id="small-beginnings-vid-div">
                     <iframe id="small-beginnings-vid-div" class="embed-responsive-item" src="https://www.youtube.com/embed/5fUxwU0yQXk?si=etVxgPDJKmw7kTXG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                </div> -->
             </div>
 
             <!-- Left 4 Dev -->
@@ -130,7 +133,11 @@
                 </p>
             </div>
         </div>
-    </article>
+    </div>
+
+    <br><br><Br>
+    <!-- About Me Pills -->
+    
 
     
     <!-- Footer -->

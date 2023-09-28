@@ -72,18 +72,28 @@
     padding-bottom: 20px;
 }
 
-#small-beginnings-vid-div {
-    width: 320px;
-    height: 180px;
-    margin: 0 auto;
+
+#cyber-tab {
+    font-size: 15px !important;
+    background-color: var(--cyber-grey);
+    padding: 0px;
+    border-bottom: 4px var(--cyber-blue) solid;
 }
 
 .nav-tabs .nav-item {
-    background-color: var(--cyber-yellow);
+    position: relative; 
+    top: 0px;
+    width: 33%;
+    height: 65px !important;
     border: 2px var(--cyber-grey) solid;
     border-radius: 3px;
     color: var(--cyber-grey) !important;
     font-family: 'Kanit', sans-serif !important;
+}
+
+#cyber-tab .nav-link {
+    width: 100%;
+    position: relative; 
 }
 
 .active {
@@ -91,17 +101,12 @@
     color: var(--cyber-yellow) !important;
 }
 
-nav .tab-cyber {
-    font-size: 15px !important;
-    padding: 0px;
-}
-
 .tab-pane {
     margin: 0 auto;
     padding: 10px;
     background-color: var(--cyber-grey);
     border: 6px var(--cyber-grey) solid;
-    max-width: 840px;
+    max-width: 2000px;
     transition: 0s;
     border-radius: 5px;
 }
@@ -111,44 +116,3 @@ nav .tab-cyber {
     color: white;
 }
 
-nav .btn-cyber-grey {
-    border: 0px !important;
-    border-top: 5px var(--cyber-grey) solid !important;
-    border-left: 5px var(--cyber-grey) solid !important;
-    border-right: 5px var(--cyber-grey) solid !important;
-    border-bottom: 0px;
-    text-indent: 0px;
-    display: inline;
-    padding: 0px !important;
-    margin: 0px;
-    font-size: 10px !important;
-    width: 30% !important;
-    max-width: 150px !important;
-}
-
-nav .btn-cyber-grey:hover {
-    background-color: var(--cyber-yellow);
-    color: var(--cyber-grey);
-    transition: .5s;
-}
-
-nav .btn-cyber-grey:focus {
-    background-color: var(--cyber-yellow) !important;
-    color: var(--cyber-grey) !important;
-    transition: 0s;
-    margin-top: 10px;
-}
-
-div .tab-pane .btn-cyber-grey {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-div .tab-pane .btn-cyber-grey:hover {
-    background-color: rgba(0, 0, 0, 0) !important;
-    color: var(--cyber-grey) !important;
-    font-size: 16px;
-    transition: .5s;
-    padding: 10px;
-    width: 100%;
-}
