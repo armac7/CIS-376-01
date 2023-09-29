@@ -56,6 +56,9 @@
         font-size: 17px !important;
     }
 
+    .skill-bg-icon {
+        margin-left: 33% !important;
+    }
 
     /* PORTFOLIO STYLES */
     #work-header {
@@ -111,15 +114,32 @@
         left: -120px;
         margin: 0 auto;
     }
-
-    #small-beginnings-vid-div {
-        margin: 0 auto;
-    }
     
     .nav-tabs {
         position: relative;
         margin: 0 auto;
         width: 400px;
+    }
+
+    .skill-bg-icon {
+        margin-left: 40% !important;
+    }
+
+    #technical-icon {
+        margin-top: 12% !important;
+    }
+
+    #production-icon {
+        margin-top: 9% !important;
+    }
+
+    #interpersonal-icon {
+        margin-top: 6% !important;
+    }
+
+    #skill-menu .card {
+        position: relative;
+        left: -20%;
     }
 
 

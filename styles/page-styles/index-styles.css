@@ -72,6 +72,7 @@
     border-bottom: 3px var(--cyber-grey) solid;
 }
 
+/* Tracks Tabs */
 #about-me-tab-group {
     position: relative;
     top: 11.5px;
@@ -135,13 +136,83 @@
     padding: 30px;
 }
 
-.code-call {
-    position: relative;
-    top: -20px;
-    left: -50px;
-    font-size: 10px;
+
+/************************************* 
+    Skill Styles
+*************************************/
+:root {
+    --skillWidth: 250px;
+    --skillHeight: 225px;
 }
 
+.skill-bg-icon {
+    margin-left: 15%;
+    padding: 30px;
+    background-image: url("../imgs/ui/logos/skills/skill-holder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: var(--skillWidth) !important;
+    max-width: var(--skillWidth) !important;
+    min-height: var(--skillHeight) !important;
+    max-height: var(--skillHeight) !important;
+}
 
+.skill-bg-icon h5,
+.skill-bg-icon p {
+    position: relative;
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-align: center;
+}
 
+.skill-bg-icon p {
+    font-size: 50px;
+    margin-top: 4px;
+    
+}
 
+.skill-icon {
+    position: relative;
+    left: 35%;
+    top: -20px;
+    width: 30%;
+    height: auto;
+
+}
+
+.skill-holder {
+    position: relative;
+    margin-top: 20px;
+    left: 0%;
+    width: 100%;
+}
+
+.card {
+    transition: .6s;
+    background-color: #18181ad6;
+    border: 5px var(--cyber-red) solid;
+    border-radius: 9px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.card .code-call {
+    position: relative;
+    left: -8px;
+    top: -10px;
+    color: var(--cyber-blue)
+}
+
+#skill-menu .card:hover {
+    .experienced {
+        transition: .6s;
+        color: var(--cyber-yellow) !important;
+        font-size: 20px;
+    }
+
+    .novice {
+        transition: .6s;
+        font-size: 14px;
+    }
+}
