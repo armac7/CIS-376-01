@@ -22,7 +22,7 @@
         height: auto;
     }
 
-    #footer-socials {
+    .footer-socials {
         width: 20% !important;
     }
 
@@ -41,7 +41,7 @@
         margin-left: 160px;
     }
     
-    #about-me-header {
+    .index-header {
         font-size: 50px !important;
     }
 

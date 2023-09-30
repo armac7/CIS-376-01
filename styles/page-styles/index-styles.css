@@ -67,7 +67,7 @@
 /************************************* 
     About Me Styles
 *************************************/
-#about-me-header {
+.index-header {
     font-size: 40px; 
     border-bottom: 3px var(--cyber-grey) solid;
 }

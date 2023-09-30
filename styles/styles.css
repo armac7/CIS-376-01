@@ -166,7 +166,7 @@ p {
     color: var(--cyber-red);
 }
 
-#footer-socials {
+.footer-socials {
     width: 30% !important;
 }
 
