@@ -13,35 +13,10 @@
     <link rel="stylesheet" href="./styles/media-styles.css">
     <link rel="stylesheet" href="./styles/page-styles/index-styles.css">
     
-    
 </head>
 <body>
     
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg  navbar-cyberpunk navbar-fixed position-sticky" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand cyber-bold-font" id="navbar-header" href="/index.html">
-                W. RYAN MCD.
-            </a>
-            <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon" id="navbar-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="active" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://www.dropbox.com/scl/fi/3hxtth57owwce7mgpo8os/MCDONALD-WILLIAM-RYAN-Resume-v2.pdf?rlkey=24y9s5509b3mr4xe6888qrgz8&dl=0">RESUME</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- -->
+    <div id="navbar"></div>
 
     <br>
     <!-- Intro Section -->
@@ -69,7 +44,7 @@
                         <button class="btn-cyber cyber-header-font" onclick="window.location.href='#skill-menu'">SKILLS</button>
                     </div>
                     <div class="col">
-                        <button class="btn-cyber cyber-header-font" onclick="window.open('https://codepen.io/azyn7','_blank')">CODEPEN</button>
+                        <button class="btn-cyber cyber-header-font" onclick="window.open('https://www.dropbox.com/scl/fi/yypsvh0qy8t744j3rbh52/MCDONALD-_WILLIAM_RYAN_Resume-2025.pdf?rlkey=u3t5c8rf5ct3kl70rk8r5kxzp&st=b7ttndov&dl=0','_blank')">RESUME</button>
                     </div>
                 </div>
                 
@@ -288,48 +263,13 @@
 
     <br><br><br>
 
-    <!-- Footer -->
-    <div id="footer" class="mt-4 p-3 bg-dark text-center cyber-yellow-bg" style="min-height: 200px; border-top: 4px var(--cyber-blue) solid;">
-        <div class="row mt-3 mb-3">
-            <div class="col-xl-4 mb-5">
-                <h1 id="footer-header" style="width: 80%; margin: 0 auto;">W. RYAN MCD.</h1>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col">
-                        <a target="_blank" href="https://github.com/Azyn7"><img class="github-footer img-fluid footer-socials" src="./styles/imgs/ui/logos/github-grey.png" style="width: 100%;" alt="github footer logo"></a>
-                    </div>
-                    <div class="col">
-                        <a target="_blank" href="https://www.linkedin.com/in/wrmcd/"><img src="./styles/imgs/ui/logos/linkedin-grey.png" class="footer-socials img-fluid" style="width: 100%;" alt="linked in footer logo"></a>
-                    </div>
-                    <div class="col">
-                        <a target="_blank" href="https://www.youtube.com/@wickynii"><img class="youtube-footer footer-socials img-fluid" src="./styles/imgs/ui/logos/youtube-grey.png" style="width: 100%;" alt="youtube footer logo"></a>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-xl-4 mb-5">
-                <h4>QUICK LINKS</h4>
-                <p style="text-align: center;">
-                    <a href="">Back to Top</a><br>
-                    <a target="_blank" href="https://www.dropbox.com/scl/fi/3hxtth57owwce7mgpo8os/MCDONALD-WILLIAM-RYAN-Resume-v2.pdf?rlkey=24y9s5509b3mr4xe6888qrgz8&dl=0">Resume</a><br>
-                    <a target="_blank" href="https://github.com/Azyn7/CIS-376-01">Page GitHub Repo</a><br>
-                    <a target="_blank" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwrmcd.net%2Findex.html">Page Validation</a>
-                </p>
-            </div>
-            <div class="col-xl-4 mb-5">
-                <h4>CONTACT</h4>
-                <p style="text-align: center;">
-                    w.mcd0320@gmail.com<br>
-                </p>
-            </div>
-        </div>
-        <div class="div">
-            © 2023 | WRMCD. Made and learned in two weeks.
-        </div>
-    </div>
+    <div id="footer"></div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src='./scripts/scripts.js'></script>
+    <script src="./scripts/load-components.js"></script>
 </body>
 </html>
